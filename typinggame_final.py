@@ -1,3 +1,13 @@
+'''
+Logan Linville
+typinggame_final.py
+Date: 4-23-2025
+
+The program provides the user with a typing game that will give different
+difficulty phrases for the user to enter and recieve a score and wpm for
+the challenge.
+'''
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -17,16 +27,6 @@ def view_leaderboard():
 def exit_game():
     if messagebox.askyesno("Exit", "Are you sure you want to exit?"):
         window.destroy()
-
-'''
-Logan Linville
-typinggame_final.py
-Date: 4-23-2025
-
-The program provides the user with a typing game that will give different
-difficulty phrases for the user to enter and recieve a score and wpm for
-the challenge.
-'''
 
 # Main window
 window = tk.Tk()
